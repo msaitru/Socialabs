@@ -2205,6 +2205,32 @@ input.inputfile {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+.content__table__date-container{
+	margin:5px 0;
+	width:100%;
+	background-color:#fff;
+}
+.content__table__date{
+	width:100%;
+	text-align:center;
+}
+.content__table__date th, .content__table__date td{
+	padding:15px 20px;
+	border:1px solid #EFEFEF;
+}
+.content__table__date th{
+	color:#767676;
+	font-weight:normal;
+}
+.content__table__date td:hover{
+	background-color:#C7E0FF;
+}
+.content__table__date td:first-child{
+	width:8%;
+	color:#315BB7;
+}
+
 .content__favorites-sort {
 	background-color: #fff;
 	border-bottom: 1px solid #d3dbed;
