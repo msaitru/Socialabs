@@ -3407,6 +3407,55 @@ input.input-long-15mb {
 	box-sizing: border-box;
 	resize: none;
 }
+
+
+.content__table__date-container{
+	margin:5px 0;
+	width:100%;
+	background-color:#fff;
+}
+.content__table__date{
+	width:100%;
+	text-align:center;
+}
+.content__table__date th, .content__table__date td{
+	padding:15px 20px;
+	border:1px solid #EFEFEF;
+}
+.content__table__date th{
+	color:#767676;
+	font-weight:normal;
+}
+.content__table__date td:hover{
+	background-color:#C7E0FF;
+}
+.content__table__date td:first-child{
+	width:8%;
+	color:#315BB7;
+}
+.content__table-advertiser-campaigns{
+	width: 100%;
+	color: #315bb7;
+	font-size: 14px;
+	font-weight: 400;
+	box-sizing: border-box;
+}
+.content__advertiser-campaigns .content__chart-filter{
+	margin:10px 0;
+}
+.content__chart-filter-text {
+    float: left;
+    color: #888888;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 31px;
+    min-height: 31px;
+    padding: 0 13px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.icon-less-greater-then{padding:0 2px 0 7px;}
 /* -------------------------------------- not main page (end) -------------------------------------- */
 
 
