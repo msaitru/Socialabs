@@ -3672,4 +3672,138 @@ input.input-long-15mb {
 	left: 50%;
 	margin-left: -100px;
 }
+
+
+/* -------------------------------------- Заявка на размещение popup -------------------------------------- */
+.area__zayavka__na__razmeshenie-popup{
+	padding:0;
+	text-align:left;
+	box-sizing:border-box;
+}
+.zayavka__na__razmeshenie-wrap{
+	padding:0 30px;
+	width:100%;
+	text-align:left;
+	border-bottom:1px solid #E6E6E6;
+	box-sizing:border-box;
+}
+.area__zayavka__na__razmeshenie-popup .popup__body{
+	padding:0px;
+	width:100%;
+	box-sizing:border-box;
+}
+.area__zayavka__na__razmeshenie-popup .popup__footer{
+	padding:20px 30px;
+	box-sizing:border-box;
+}
+.area__zayavka__na__razmeshenie-popup .popup__body-inner{
+	padding:0px;
+	width:100%;
+	box-sizing:border-box;
+}
+.area__zayavka__na__razmeshenie-popup .popup__header{
+	margin:21px 0 10px 0;
+	padding:0;
+	width:100%;
+	text-align:left;
+	border:0;
+	box-sizing:border-box;
+}
+.popup__body-all{
+	float: left;
+	position:relative;
+	width: 100%;
+	padding: 0;
+	box-sizing: border-box;
+}
+.area__zayavka__na__razmeshenie-popup .search-areas_all{
+	float: left;
+	position:relative;
+	width: 100%;
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.area__zayavka__na__razmeshenie-popup .search-areas__rowblock-select{
+	width: 100%;
+	padding: 0;
+	box-sizing: border-box;
+}
+.area__zayavka__na__razmeshenie-popup .customSelect{border:1px solid #ccc;
+	width: 100%;
+	padding: 0;
+	box-sizing: border-box;
+}
+.area__zayavka__na__razmeshenie-popup .search-areas__rowblock-title{
+	margin-bottom:5px;
+	color:#A7A7A7;
+}
+.input_block{
+	margin-bottom:20px;
+}
+.area__zayavka__na__razmeshenie-popup .hasCustomSelect{
+	width: 100% !important;
+	position: absolute;
+	opacity: 0;
+	height: 100% !important;
+	box-sizing: border-box;
+}
+.area__zayavka__na__razmeshenie-popup .hasCustomSelect option{
+	margin:3px 0;
+	width: 100% !important;
+	color:#6B6B6B;
+	font-size: 13px !important;
+}
+.area__zayavka__na__razmeshenie-popup .search-areas__rowblock-input{border:1px solid #ccc;
+	margin:3px 0;
+	padding:9px 5px;
+	width: 100% !important;
+	color:#6B6B6B;
+	font-size: 13px !important;
+}
+.area__zayavka__na__razmeshenie-popup .customSelectInner{
+	width: 100% !important;
+	font-size: 13px !important;
+	padding: 0 25px 0 7px;
+}
+.select_time .search-areas__rowblock-input{
+	display:inline-block !important;
+	padding:7px 10px;
+	width:40px !important;
+}
+.select_time span{
+	margin:0 7px;
+}
+.select_hours .search-areas__rowblock-text{
+	color:#6B6B6B;
+	font-size: 13px !important;
+}
+.select_price .content__table-container{
+	padding:0;
+	color:#6B6B6B;
+	font-size: 13px !important;
+	border:0;
+}
+.select_price .content__table td{
+	height:30px !important;
+}
+.select_price .content__table-container td{
+	padding:0;
+	color:#6B6B6B;
+}
+.select_price .content__table-container td a.title{
+	padding-left:15px;
+	min-width:150px !important;
+	color:#6B6B6B;
+	font-size: 13px !important;
+	font-weight:normal;
+	text-overflow:ellipsis;
+}
+.select_price-price{
+	min-width:100px !important;
+	color:#6B6B6B;
+	font-size: 13px !important;
+	text-align:right;
+}
+
 /* -------------------------------------- Bootstrap: tooltip.js v3.3.6 (end) -------------------------------------- */
