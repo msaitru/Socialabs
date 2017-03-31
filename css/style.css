@@ -3718,4 +3718,7 @@ input.input-long-15mb {
 	left: 50%;
 	margin-left: -100px;
 }
+
+.select_on_off.select-container{margin-left: -25px;}
+.select_on_off .customSelect{border-width:0px;}
 /* -------------------------------------- Bootstrap: tooltip.js v3.3.6 (end) -------------------------------------- */
