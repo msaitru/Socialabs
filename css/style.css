@@ -3721,4 +3721,11 @@ input.input-long-15mb {
 
 .select_on_off.select-container{margin-left: -25px;}
 .select_on_off .customSelect{border-width:0px;}
+
+.while__working{
+	display:inline-block;
+	margin-left:10px;
+	color:#90C2FF;
+	border-bottom:1px dashed #90C2FF;
+}
 /* -------------------------------------- Bootstrap: tooltip.js v3.3.6 (end) -------------------------------------- */
