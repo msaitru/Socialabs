@@ -3728,4 +3728,12 @@ input.input-long-15mb {
 	color:#90C2FF;
 	border-bottom:1px dashed #90C2FF;
 }
+
+.input-long-15mb.phone{
+	padding-left:35px;
+}
+.input-long-15mb.flag-ru{
+	background:url(img/russia.png) no-repeat left 5px center;
+	background-size:auto 50%;
+}
 /* -------------------------------------- Bootstrap: tooltip.js v3.3.6 (end) -------------------------------------- */
