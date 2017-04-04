@@ -100,6 +100,7 @@
 						<a href="#" class="btn blue btn-inner">Добавить площадку</a>
 					</div>
 				</div>
+				<div id="alert_config_notice" class="alert__configure__notifications">Для оперативного приёма заявок от рекламодателей рекомендуем настроить СМС и E-mail уведомления.<span onclick="closeNotice()">х</span></div>				
 				<div class="content__sort">
 					<form action="">
 						<div class="content__sort__item">
@@ -857,6 +858,12 @@
 	<script src="js/jquery.textPlaceholder.js"></script>
 	<script src="js/jquery.pickmeup.min.js"></script>
 	<script src="js/common.js"></script>
+	<script>
+		function closeNotice() {
+			document.getElementById('alert_config_notice').style.display = 'none';						
+		}
+	</script>
+
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
