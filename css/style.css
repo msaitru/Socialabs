@@ -3736,4 +3736,21 @@ input.input-long-15mb {
 	background:url(img/russia.png) no-repeat left 5px center;
 	background-size:auto 50%;
 }
+
+.alert__configure__notifications{
+	position:relative;
+	margin:10px 0;
+	padding:20px;
+	padding-right:80px;
+	color:#fff;
+	background-color:#90C2FF;
+}
+.alert__configure__notifications span{
+	position:absolute; top:20px; right:20px;
+	color:#fff;
+	font-size:1.3em;
+	line-height:0.7em;
+	cursor:pointer;
+}
+
 /* -------------------------------------- Bootstrap: tooltip.js v3.3.6 (end) -------------------------------------- */
