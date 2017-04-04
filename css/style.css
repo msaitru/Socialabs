@@ -3753,4 +3753,10 @@ input.input-long-15mb {
 	cursor:pointer;
 }
 
+
+.sidebarleft__nav.site__sub__menu {
+	display: none; 
+}
+
+
 /* -------------------------------------- Bootstrap: tooltip.js v3.3.6 (end) -------------------------------------- */
