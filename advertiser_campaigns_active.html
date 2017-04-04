@@ -60,7 +60,21 @@
 					<a href="advertiser_campaigns_active.html" class="sidebarleft__nav__a"><i class="icon-campaign"></i><span class="sidebarleft__nav__a__text">Кампании</span><span class="sidebarleft__nav__a__count">7</span></a>
 				</li>
 				<li>
-					<a href="#" class="sidebarleft__nav__a"><i class="icon-playground"></i>Площадки</a>
+					<a href="/" class="sidebarleft__nav__a" onclick="toggleSiteSubMenu()"><i class="icon-playground"></i>Площадки</a>
+					<script>
+						function toggleSiteSubMenu() {
+							$( "#site__sub__menu" ).toggle();
+						};
+					</script>
+					<ul id="site__sub__menu" class="sidebarleft__nav site__sub__menu">
+						<li>
+							<a href="#" class="sidebarleft__nav__a"><i class="icon-none"></i>Одиночные</a>					
+						</li>
+						<li>
+							<a href="#" class="sidebarleft__nav__a"><i class="icon-none"></i>Пакеты</a>					
+						</li>
+					</ul>
+					
 				</li>
 				<li>
 					<a href="#" class="sidebarleft__nav__a"><i class="icon-favorite-bold"></i>Избранное</a>
